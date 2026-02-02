@@ -8,13 +8,17 @@
     "dev": "node --watch --env-file=.env server.js",
     "start": "node --env-file=.env server.js"
   },
-  "keywords": ["mern", "express", "mongodb"],
+  "keywords": [
+    "mern",
+    "express",
+    "mongodb"
+  ],
   "author": "Jouw Naam",
   "license": "ISC",
-
-    "dependencies": {
+  "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.2.1",
+    "mongodb": "^7.0.0",
     "mongoose": "^9.1.3"
   }
 }
